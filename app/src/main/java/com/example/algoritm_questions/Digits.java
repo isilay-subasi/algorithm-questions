@@ -34,9 +34,21 @@ public class Digits {
             reverse = reverse + string_number.charAt(i);
 
         int result = Integer.parseInt(String.valueOf(reverse.charAt(k)));
-
-
         return result;
+    }
+
+
+    public Integer digitSumLargerThan(int number, int limit){
+        String string_number = Integer.toString(number);
+        int lenght = string_number.length();
+        int total = 0 ;
+        for (int i = 0 ; i < lenght ; i++){
+            if(Integer.parseInt(String.valueOf(string_number.charAt(i))) > limit){
+                System.out.println("tot"+total);
+                total = total + Integer.parseInt(String.valueOf(string_number.charAt(i)));
+            }
+        }
+       return total;
     }
 
 

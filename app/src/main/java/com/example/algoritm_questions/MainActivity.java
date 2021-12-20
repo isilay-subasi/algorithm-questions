@@ -16,10 +16,12 @@ public class MainActivity extends AppCompatActivity {
         int resultFirst = digits.digitFirst(134568);
         int resultFirstMath = digits.digitFirstMath(3456789);
         int resultDigitAt=digits.digitAt(354896,5);
+        int resultSumLargerThan=digits.digitSumLargerThan(345578,4);
         System.out.println("resultZero : " + resultZero);
         System.out.println("resultFirst : " + resultFirst);
         System.out.println("resultFirstMath : " + resultFirstMath);
         System.out.println("resultDigitAt : " + resultDigitAt);
+        System.out.println("resultSumLargerThan : " + resultSumLargerThan);
 
     }
 }
