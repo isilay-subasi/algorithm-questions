@@ -12,8 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Digits digits=new Digits();
-        int result = digits.digitZero(3456789);
-        System.out.println("result : " + result);
+        int resultZero = digits.digitZero(3456789);
+        int resultFirst = digits.digitFirst(13456);
+        System.out.println("resultZero : " + resultZero);
+        System.out.println("resultFirst : " + resultFirst);
 
     }
 }
