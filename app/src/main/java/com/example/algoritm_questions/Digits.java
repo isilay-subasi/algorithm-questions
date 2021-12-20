@@ -51,6 +51,19 @@ public class Digits {
        return total;
     }
 
+    public Integer digitCount(int number , int digit){
+        String string_number = Integer.toString(number);
+        int length = string_number.length();
+        int counter = 0;
+        for(int i = 0 ; i < length ; i++ ){
+            if(Integer.parseInt(String.valueOf(string_number.charAt(i))) == digit){
+                counter++;
+            }
+        }
+        return counter;
+
+    }
+
 
 
 
