@@ -13,9 +13,13 @@ public class MainActivity extends AppCompatActivity {
 
         Digits digits=new Digits();
         int resultZero = digits.digitZero(3456789);
-        int resultFirst = digits.digitFirst(13456);
+        int resultFirst = digits.digitFirst(134568);
+        int resultFirstMath = digits.digitFirstMath(3456789);
+        int resultDigitAt=digits.digitAt(354896,5);
         System.out.println("resultZero : " + resultZero);
         System.out.println("resultFirst : " + resultFirst);
+        System.out.println("resultFirstMath : " + resultFirstMath);
+        System.out.println("resultDigitAt : " + resultDigitAt);
 
     }
 }
