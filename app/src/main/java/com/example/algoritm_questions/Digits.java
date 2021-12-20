@@ -65,7 +65,30 @@ public class Digits {
     }
 
 
+    public Integer digitRemoveAt(int number , int k){
+        String string_number = Integer.toString(number);
+        String reverse="";
+        int length = string_number.length();
+        for (int i = length - 1 ; i >= 0 ; i--)
+            reverse = reverse + string_number.charAt(i);
 
+        StringBuilder sb = new StringBuilder(reverse);
+        String reverse_result_string = String.valueOf(sb.deleteCharAt(k));
+
+        String result_string = "";
+        for(int i = reverse_result_string.length()-1 ; i >= 0 ; i--){
+            result_string=result_string + reverse_result_string.charAt(i);
+        }
+
+       return Integer.valueOf(result_string);
+
+        }
 
     }
+
+
+
+
+
+
 

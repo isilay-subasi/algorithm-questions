@@ -15,15 +15,18 @@ public class MainActivity extends AppCompatActivity {
         int resultZero = digits.digitZero(3456789);
         int resultFirst = digits.digitFirst(134568);
         int resultFirstMath = digits.digitFirstMath(3456789);
-        int resultDigitAt=digits.digitAt(354896,5);
+        int resultDigitAt=digits.digitAt(3548964,5);
         int resultSumLargerThan=digits.digitSumLargerThan(345578,4);
         int resultDigitCount = digits.digitCount(345674,5);
-        System.out.println("resultZero : " + resultZero);
-        System.out.println("resultFirst : " + resultFirst);
-        System.out.println("resultFirstMath : " + resultFirstMath);
-        System.out.println("resultDigitAt : " + resultDigitAt);
-        System.out.println("resultSumLargerThan : " + resultSumLargerThan);
-        System.out.println("resultDigitCount : " + resultDigitCount);
+        int digitRemoveAt = digits.digitRemoveAt(34674,1);
+
+       // System.out.println("resultZero : " + resultZero);
+       // System.out.println("resultFirst : " + resultFirst);
+       // System.out.println("resultFirstMath : " + resultFirstMath);
+       // System.out.println("resultDigitAt : " + resultDigitAt);
+       // System.out.println("resultSumLargerThan : " + resultSumLargerThan);
+       // System.out.println("resultDigitCount : " + resultDigitCount);
+        System.out.println("digitRemoveAt : " + digitRemoveAt);
 
     }
 }
