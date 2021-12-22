@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         int digitRemoveAt = digits.digitRemoveAt(34674,1);
         int resultDigitRemoveAll = digits.digitRemoveAll(345555667,4);
         int randomNumber = digits.randomNumber(9);
+        int reverse = digits.reverse(35467);
 
        // System.out.println("resultZero : " + resultZero);
        // System.out.println("resultFirst : " + resultFirst);
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
        // System.out.println("resultDigitCount : " + resultDigitCount);
         //System.out.println("digitRemoveAt : " + digitRemoveAt);
         //System.out.println("resultDigitRemoveAll : " + resultDigitRemoveAll);
-        System.out.println("randomNumber : " + randomNumber);
+        //System.out.println("randomNumber : " + randomNumber);
+        System.out.println("reverse : " + reverse);
 
     }
 }

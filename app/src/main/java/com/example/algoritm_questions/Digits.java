@@ -126,6 +126,19 @@ public class Digits {
         }
 
 
+        public Integer reverse(int number){
+            String string_number = Integer.toString(number);
+            String reverse="";
+            int length = string_number.length();
+            for (int i = length - 1 ; i >= 0 ; i--)
+                reverse = reverse + string_number.charAt(i);
+
+            return Integer.valueOf(reverse);
+
+        }
+
+
+
 
 
 

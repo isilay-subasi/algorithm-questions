@@ -19,3 +19,5 @@ We will create a class called <b>Digits</b>. We will write static methods for th
 
 8. Write a method named <b>randomNumber</b> that gets an integer parameter k. The method should return a k-digit integer with no digits repeated. For example, if the parameter is 4, the method may produce 9276. However, it may not return 9296, since it repeats the digit 9, It may also not return 926 since it is not a 4-digit number.
 
+9. Write a method named <b>reverse</b> that gets an integer parameter n and returns the integer obtained by the reversal of its digits. For example, if the parameter is 89745, the method should return 54798.
+
