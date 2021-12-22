@@ -11,10 +11,11 @@ We will create a class called <b>Digits</b>. We will write static methods for th
 
 4. Write a method named <b>digitSumLargerThan</b> that gets two integers n and limit as parameters (in this order) and returns the sum of the digits that are larger than the limit. For example, if the parameters are 889745 and 7, the method will return the sum of the digits that are larger than 7, that is 8+8+9 = 25. 
 
-5. Write a method named digitCount that gets two integers n and digit as parameters (in this order). The method counts the number of digits in n that are equal to digit. For example, if the parameters are 4574172 and 7, the method should return 2. Note that 7 occurs 2 times in 4574172. 
+5. Write a method named <b>digitCount</b> that gets two integers n and digit as parameters (in this order). The method counts the number of digits in n that are equal to digit. For example, if the parameters are 4574172 and 7, the method should return 2. Note that 7 occurs 2 times in 4574172. 
 
-6. Write a method named digitRemoveAt that gets two integers n and i as parameters (in this order). The method returns the integer obtained from n by the removal of its i-th digit. For example, if the parameters are 61748 and 3, the method should return 6748. Note that the third digit is removed from 61748. 
+6. Write a method named <b>digitRemoveAt</b> that gets two integers n and i as parameters (in this order). The method returns the integer obtained from n by the removal of its i-th digit. For example, if the parameters are 61748 and 3, the method should return 6748. Note that the third digit is removed from 61748. 
 
-7. Write a method named digitRemoveAll that gets two integers n and digit as pa- rameters (in this order). The method should return the integer obtained from n by the removal of all digits with value equal to the parameter digit. For example, if the parameters are 647544 and 4, it should return 675. Note that all occurrences of 4 in 647544 are removed. 
+7. Write a method named <b>digitRemoveAll</b> that gets two integers n and digit as pa- rameters (in this order). The method should return the integer obtained from n by the removal of all digits with value equal to the parameter digit. For example, if the parameters are 647544 and 4, it should return 675. Note that all occurrences of 4 in 647544 are removed. 
 
+8. Write a method named <b>randomNumber</b> that gets an integer parameter k. The method should return a k-digit integer with no digits repeated. For example, if the parameter is 4, the method may produce 9276. However, it may not return 9296, since it repeats the digit 9, It may also not return 926 since it is not a 4-digit number.
 
