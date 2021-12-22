@@ -13,7 +13,6 @@ public class Digits {
             n /= 10;
             numberOfSteps++;
         }
-        System.out.println("basamakSayisi"+numberOfSteps);
         return n;
     }
 
@@ -44,7 +43,6 @@ public class Digits {
         int total = 0 ;
         for (int i = 0 ; i < lenght ; i++){
             if(Integer.parseInt(String.valueOf(string_number.charAt(i))) > limit){
-                System.out.println("tot"+total);
                 total = total + Integer.parseInt(String.valueOf(string_number.charAt(i)));
             }
         }
@@ -83,6 +81,31 @@ public class Digits {
        return Integer.valueOf(result_string);
 
         }
+
+        public Integer digitRemoveAll(int number , int k){
+            String string_number = Integer.toString(number);
+            String reverse="";
+            int length = string_number.length();
+            for (int i = length - 1 ; i >= 0 ; i--)
+                reverse = reverse + string_number.charAt(i);
+            StringBuilder sb = new StringBuilder(reverse);
+            String reverse_result_string="";
+            for(int i = length - 1 ; i >= 0 ; i--){
+                if(Integer.parseInt(String.valueOf(sb.charAt(i))) == k){
+                    reverse_result_string= String.valueOf(sb.deleteCharAt(i));
+                }
+            }
+            System.out.println(reverse_result_string);
+
+            String result_string="";
+            for(int i = reverse_result_string.length()-1 ; i >= 0 ; i--){
+                result_string=result_string + reverse_result_string.charAt(i);
+            }
+          return Integer.valueOf(result_string);
+        }
+
+
+
 
     }
 

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         int resultSumLargerThan=digits.digitSumLargerThan(345578,4);
         int resultDigitCount = digits.digitCount(345674,5);
         int digitRemoveAt = digits.digitRemoveAt(34674,1);
+        int resultDigitRemoveAll = digits.digitRemoveAll(345555667,4);
 
        // System.out.println("resultZero : " + resultZero);
        // System.out.println("resultFirst : " + resultFirst);
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
        // System.out.println("resultDigitAt : " + resultDigitAt);
        // System.out.println("resultSumLargerThan : " + resultSumLargerThan);
        // System.out.println("resultDigitCount : " + resultDigitCount);
-        System.out.println("digitRemoveAt : " + digitRemoveAt);
+        //System.out.println("digitRemoveAt : " + digitRemoveAt);
+        System.out.println("resultDigitRemoveAll : " + resultDigitRemoveAll);
 
     }
 }
