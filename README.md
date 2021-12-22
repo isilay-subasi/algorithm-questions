@@ -21,3 +21,5 @@ We will create a class called <b>Digits</b>. We will write static methods for th
 
 9. Write a method named <b>reverse</b> that gets an integer parameter n and returns the integer obtained by the reversal of its digits. For example, if the parameter is 89745, the method should return 54798.
 
+10. Write a method named <b>charDigitSum</b> that gets a String parameter str and returns the sum of the integer equivalents (ASCII CODES) of the individual characters in the string. For example, if the parameter is “hello”, the method will return the sum of characters that is 104 (for h) + 101 (for e) + 108 (for l) + 108 (for l) + 111 (for o) = 532.
+

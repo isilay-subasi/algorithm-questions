@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         int randomNumber = digits.randomNumber(9);
         int reverse = digits.reverse(35467);
         boolean isPalindrome = digits.isPalindrome(4347);
+        int charDigitSum = digits.charDigitSum("hello");
 
        // System.out.println("resultZero : " + resultZero);
        // System.out.println("resultFirst : " + resultFirst);
@@ -37,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         //System.out.println("resultDigitRemoveAll : " + resultDigitRemoveAll);
         //System.out.println("randomNumber : " + randomNumber);
         //System.out.println("reverse : " + reverse);
-        System.out.println("isPalindrome " + isPalindrome);
+        //System.out.println("isPalindrome " + isPalindrome);
+        System.out.println("charDigitSum " + charDigitSum);
 
     }
 }

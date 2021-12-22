@@ -1,11 +1,7 @@
 package com.example.algoritm_questions;
-
 import android.os.Build;
-
 import androidx.annotation.RequiresApi;
-
 import java.util.Random;
-
 public class Digits {
 
 
@@ -155,6 +151,20 @@ public class Digits {
 
         return result_boolean;
     }
+
+    public Integer charDigitSum(String str){
+
+        int digitSum = 0;
+        for (int i = str.length()-1 ; i>= 0 ; i--){
+            digitSum = digitSum + str.charAt(i);
+
+        }
+        return digitSum;
+
+    }
+
+
+
 
 }
 
